@@ -31,56 +31,103 @@ body {
   background-color: var(--bg-body);
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--heading-font);
-    color: var(--heading-color);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--heading-color);
 }
 
-p,li,span,input,::placeholder, button, a{
-    color: var(--text-color);
-    font-family: var(--text-font);
+p,
+li,
+span,
+input,
+::placeholder,
+button,
+a {
+  color: var(--text-color);
+  font-family: var(--text-font);
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.links{
-    transition: .1s ease-in;
+.links {
+  transition: 0.1s ease-in;
 }
-.links:hover{
-
-    color: var(--hover-color);
-}
-
-li{
-    list-style-type: none;
+.links:hover {
+  color: var(--hover-color);
 }
 
-
-.navigation{
-    padding: 1.3rem .5rem;
-    background-color: var(--white-color);
-    border-bottom: 1px solid var(--border-color);
+li {
+  list-style-type: none;
 }
 
-.site-title{
-    cursor: pointer;
-    font-weight: 900;
+.image {
+  width: 100%;
+  height: auto;
 }
 
-.nav-wrapper{
-    margin: 0 auto;
-    max-width: 1300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
 }
 
-.nav-list{
-    display: inline-block;
-    margin: 0 .6rem;
-    font-weight: 500;
-    font-size: 1.1rem;
+.navigation {
+  padding: 1.3rem 0.5rem;
+  background-color: var(--white-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.site-title {
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.nav-wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: inline-block;
+  margin: 0 0.6rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+.hero-section {
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.hero-wrapper {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+ 
+  padding: 2rem;
+}
+
+.user-bio{
+    margin-top: 1rem;
+}
+.user-image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
 }
